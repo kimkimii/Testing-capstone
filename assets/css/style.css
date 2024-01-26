@@ -112,10 +112,7 @@ h6 {
   z-index: 997;
   padding: 15px 0;
 }
-.center-div {
-  margin: auto;
-  width: 50%; /* You can adjust the width as needed */
-}
+
 #header.header-scrolled,
 #header.header-inner-pages {
   background: rgba(40, 58, 90, 0.9);

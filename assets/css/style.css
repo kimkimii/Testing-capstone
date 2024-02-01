@@ -115,7 +115,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: rgba(60, 98, 85, 0.9);
 }
 
 #header .logo {
@@ -182,7 +182,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #47b2e4;
+  color: #a6bb8b;
 }
 
 .navbar .getstarted,
@@ -192,14 +192,14 @@ h6 {
   border-radius: 50px;
   color: #fff;
   font-size: 14px;
-  border: 2px solid #47b2e4;
+  border: 2px solid #aea7b1;
   font-weight: 600;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #31a9e1;
+  background: #a6bb8b;
 }
 
 .navbar .dropdown ul {
@@ -302,7 +302,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(40, 58, 90, 0.9);
+  background: #3c6255;
   transition: 0.3s;
   z-index: 999;
 }
@@ -321,8 +321,8 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  border-radius: 10px;
-  background-color: #fff;
+  border-radius: 20px;
+  background-color: #61876e;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -331,19 +331,19 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #37517e;
+  color:#fffafa;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #47b2e4;
+  color: #eae7b1;
 }
 
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
   margin: 15px;
-  color: #37517e;
+  color: #fffafa;
 }
 
 .navbar-mobile .dropdown ul {
@@ -373,7 +373,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #47b2e4;
+  color: black;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -387,7 +387,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #37517e;
+  background: #3c6255;
 }
 
 #hero .container {
@@ -419,11 +419,11 @@ h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #47b2e4;
+  background: #a6bb8d;
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #61876e;
 }
 
 #hero .btn-watch-video {
@@ -518,7 +518,7 @@ section {
 }
 
 .section-bg {
-  background-color: #fff;
+  background-color: #ff;
 }
 
 .section-title {
@@ -533,7 +533,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #37517e;
+  color: #3c6255;
 }
 
 .section-title h2::before {
@@ -566,12 +566,16 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding: 12px 0;
+  display: flex;
+  padding: 12px 10px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
 }
 
 .clients img {
-  max-width: 45%;
+  max-width: 60%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
@@ -585,7 +589,12 @@ section {
 
 @media (max-width: 768px) {
   .clients img {
-    max-width: 40%;
+    display: flex;
+    align-items:flex-end;
+    position: relative;
+    max-width: 60%;
+    position: relative;
+    right: 20%;
   }
 }
 
@@ -616,7 +625,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #47b2e4;
+  color: #3c6255;
   line-height: 1;
 }
 
@@ -634,10 +643,10 @@ section {
   border-radius: 4px;
   transition: 0.3s;
   line-height: 1;
-  color: #47b2e4;
+  color: #61876e;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #47b2e4;
+  border: 2px solid black;
 }
 
 .about .content .btn-learn-more:hover {
@@ -887,7 +896,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgb(34 77 27 / 90%), rgb(32 65 35 / 91%)), url(../img/qcu.avif) fixed center center;
   background-size: cover;
   padding: 120px 0;
 }

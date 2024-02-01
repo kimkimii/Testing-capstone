@@ -518,7 +518,7 @@ section {
 }
 
 .section-bg {
-  background-color: #fff;
+  background-color: #ff;
 }
 
 .section-title {
@@ -566,13 +566,16 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
+  display: flex;
   padding: 12px 10px;
   text-align: center;
-  margin-left: 24%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
 }
 
 .clients img {
-  max-width: 70%;
+  max-width: 60%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
@@ -586,7 +589,12 @@ section {
 
 @media (max-width: 768px) {
   .clients img {
-    max-width: 40%;
+    display: flex;
+    align-items:flex-end;
+    position: relative;
+    max-width: 60%;
+    position: relative;
+    right: 20%;
   }
 }
 
@@ -888,7 +896,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgb(34 77 27 / 90%), rgb(32 65 35 / 91%)), url(../img/cta-bg.jpg) fixed center center;
+  background: linear-gradient(rgb(34 77 27 / 90%), rgb(32 65 35 / 91%)), url(../img/qcu.avif) fixed center center;
   background-size: cover;
   padding: 120px 0;
 }

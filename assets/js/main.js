@@ -6,6 +6,32 @@
 * License: https://bootstrapmade.com/license/
 */
 (function() {
+	
+	
+	document.getElementById("downloadBtn").addEventListener("click", function() {
+  var progressBar = document.querySelector(".progress-bar");
+  var progress = 0;
+  var interval = setInterval(function() {
+    progress += 5; // Adjust as needed
+    progressBar.style.width = progress + "%";
+    if (progress >= 100) {
+      clearInterval(interval);
+      // Optionally, hide the progress bar when complete
+      setTimeout(function() {
+        progressBar.style.width = "0%";
+        document.querySelector(".progress-bar-container").style.display = "none";
+        // Change button text to "Download Finished"
+        document.getElementById("downloadBtn").innerText = "Download Finished";
+      }, 1000); // Adjust the delay as needed
+    }
+  }, 100); // Adjust the interval as needed
+
+  // Show the progress bar
+  document.querySelector(".progress-bar-container").style.display = "block";
+  // Change button text to "Downloading..."
+  document.getElementById("downloadBtn").innerText = "Downloading...";
+});
+
   "use strict";
 
   /**

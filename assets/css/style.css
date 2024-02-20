@@ -146,6 +146,16 @@ h6 {
   text-transform: uppercase;
 }
 
+#header .logo:hover a{
+	display:none
+}
+
+#header .logo:hover:before{
+	content: "Center for Urban Agriculture and Innovation";
+	color: #fff;
+	cursor: pointer;
+}
+
 #header .logo a {
   color: #fff;
 }
@@ -536,7 +546,7 @@ section {
 }
 
 .section-bg {
-  background-color: #ff;
+  background-color: #fff;
 }
 
 .section-title {
@@ -671,6 +681,15 @@ section {
   background: #47b2e4;
   color: #fff;
   text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# silangan
+--------------------------------------------------------------*/
+.silangan {
+  background: url(../20240211_235609.jpg) fixed center center;
+  background-size: cover;
+  padding: 200px 0;
 }
 
 /*--------------------------------------------------------------
@@ -1664,7 +1683,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: green;
 }
 
 #footer .footer-newsletter {
@@ -1736,7 +1755,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #37517e;
+  color: green;
 }
 
 #footer .footer-top .footer-contact p {

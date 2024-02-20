@@ -1683,7 +1683,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: green;
+  background: rgba(60, 98, 85, 0.9);
 }
 
 #footer .footer-newsletter {
@@ -1755,7 +1755,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: green;
+  color: rgba(60, 98, 85, 0.9);
 }
 
 #footer .footer-top .footer-contact p {
@@ -1786,7 +1786,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #47b2e4;
+  color: rgba(60, 98, 85, 0.9);
   font-size: 18px;
   line-height: 1;
 }
@@ -1810,7 +1810,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #47b2e4;
+  color: rgba(60, 98, 85, 0.9);
 }
 
 #footer .footer-top .social-links a {

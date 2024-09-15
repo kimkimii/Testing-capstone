@@ -46,6 +46,11 @@ h6 {
   overflow: hidden;
   background: #3c6255;
 }
+.section-title img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+}
 
 #preloader:before {
   content: "";
